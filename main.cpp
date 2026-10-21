@@ -1,6 +1,5 @@
 #include <iostream>
-
-int add(int x, int y); // needed so main.cpp knows that add() is a function defined elsewhere
+#include "add.h" // Include the header file for the add function
 
 int main()
 {
